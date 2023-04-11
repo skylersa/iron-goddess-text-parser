@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+ * represents a text parser which takes a user input, splits it into its parts, and counts relevant statistics about it
+ */
 public class Main {
     private Scanner kboard = new Scanner(System.in).useDelimiter("~~~");
     private String in;
