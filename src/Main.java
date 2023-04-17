@@ -16,7 +16,7 @@ public class Main {
     // MODIFIES: this
     // EFFECTS: gathers user data, parses it and prints required data.
     private Main() {
-        in = kboard.next();
+        this.in = kboard.next();
         extractSections();
         countSectionsSentences();
         printFindings();
